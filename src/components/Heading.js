@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-scroll";
 import pica from "../images/1.png";
 import { motion } from "framer-motion";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 export default class Heading extends Component {
   render() {

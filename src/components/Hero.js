@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import mimi from "../images/mimi.jpg";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 export default class Hero extends Component {
   render() {
@@ -14,7 +16,8 @@ export default class Hero extends Component {
           >
             <path d="M50 0H80L50 120H0L50 0Z"></path>
           </svg>
-          <img
+          <LazyLoadImage
+            effect="blur"
             className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
             src={mimi}
             alt="woman using laptop"
