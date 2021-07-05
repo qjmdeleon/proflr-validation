@@ -34,7 +34,7 @@ export default class Hero extends Component {
               </span>
               <span className="inline-block text-green-500">made easy.</span>
             </h1>
-            <p className="mb-5 text-base text-gray-400 sm:pr-13 md:text-lg font-body3 leading-7">
+            <p className="mb-5 text-base text-gray-400 sm:pr-20 md:text-lg font-body3 leading-7">
               Your work, projects, and earnings are all over the place. Profilr
               makes it easy for you to view or manage important details in one
               single channel --{" "}
